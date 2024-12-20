@@ -1,0 +1,312 @@
+/*******Paddings básicos*******/
+
+.pt--20 {
+    padding-top: 20% !important; 
+}
+
+.pt--10{
+    padding-top: 10%;
+}
+
+.pt--5{
+    padding-top: 5% !important;
+}
+
+.pl--10{
+    padding-left: 10% !important;
+}
+
+.pr--10{
+    padding-right: 10% !important;
+}
+
+.p-entre-secoes{
+    padding: 130px 0 !important;
+}
+
+.p-entre-secoes-projetos{
+    padding: 130px !important;
+}
+
+/*******Paddings básicos*******/
+
+.container-fluid{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;   
+    font-weight: 400;
+    font-style: normal;
+ }
+
+
+/*******Menu de navegação*******/
+
+@media (min-width: 1200px) { 
+    #botao{
+        display: none;
+        box-shadow: 0 0 0 0;
+    }
+}
+
+.container-nav{
+    height: 80px;
+}
+
+#icone{
+    max-height: 55px;
+    width: 94px;  
+}
+
+
+#nav #navbarTogglerDemo03 ul>li{
+    margin: 0px;
+    padding: 10px;
+    font-size: 19px;
+}
+
+
+.header{
+    position: fixed;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: transparent;
+}
+
+.header.sticky{
+    background-color: #fefefe;
+    height: 80px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 991px) { 
+    #nav{
+        padding: 0px;
+    }
+    #botao{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .header-sticky #nav .row {
+        width: 100%;
+        background-color: white;
+        height: 100%;
+    }
+
+   
+
+ }
+
+
+/*******Menu de navegação*******/
+
+/*******Conteúdo Principal*******/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.img-header{
+    background-image: url(imagens/fundo-hero.svg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+}
+
+.img-projetos{
+    background-image: url(imagens/fundo-hero.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+
+}
+
+.texto-hero-titulo{
+    font-size: 119px;
+    text-align: center;
+    
+}
+.texto-hero-sub-titulo{
+    font-size: 36.2px;
+    text-align: center;
+}
+
+@media (max-width: 991.98px) { 
+
+    .container-header .row h1{
+        padding-top: 130px;
+        display: flex;
+        justify-content: center
+    }
+ }
+
+#texto-sobre-mim{
+    max-width: 1400px;
+    padding-right: 100px;
+}
+
+#cardteste{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ .card{
+    height: 500px;
+    max-width: 350px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+@media (max-width: 576px){ 
+    .card{
+        width: 400px;
+    }
+    #texto-sobre-mim{
+        padding: 50px;
+    }
+}
+
+@media (min-width: 576.1px) and (max-width: 767.98px) { 
+    .card{
+        width: 400px;
+    }
+    #texto-sobre-mim{
+        padding: 50px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .card{
+        width: 330px;
+    }
+    #texto-sobre-mim{
+        padding: 100px;
+    }
+}
+
+.imagem-do-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+ .card-header{
+    font-size: 29.7px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+ }
+
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-text{
+    font-size: 15px;
+    font-weight: 400;
+    color: aliceblue;
+    text-align: center;
+}
+
+#card-header{
+    border: none;
+    background-color: transparent;
+}
+
+#estilizacao-imagem-card{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 0px;
+    box-shadow: 1px 5px 5px 5px #3d3d3d;
+    transition: ease-out 1s;
+}
+
+#estilizacao-imagem-card:hover{
+    box-shadow: 5px 5px 5px 5px #000000;
+    transition: 1s;
+}
+
+#card1{
+    background-color: rgba(248, 167, 200, 0.65) ;
+    border: 0px;
+    border-radius: 0px;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+#card2{
+    background-color: rgb(255, 181, 1, 0.65);
+    border: 0px;
+    border-radius: 0px;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+#card3{
+    background-color: rgb(45, 89, 196, 0.65);
+    border: 0px;
+    border-radius: 0px;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+#card4{
+    background-color: rgb(0, 138, 39, 0.65);
+    border: 0px;
+    border-radius: 0px;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+/*******Conteúdo Principal*******/
+
+/*******Habilidades*******/
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+
+/*******Habilidades*******/
+
+
+
+/*******Fale comigo*******/
+
+.icones-fale-comigo{
+    color: rgba(248, 167, 200, 0.65);
+}
+
+.icones-fale-comigo:hover{
+    color: rgb(0, 138, 39, 0.65);
+}
+
+
+
+/*******Fale comigo*******/
